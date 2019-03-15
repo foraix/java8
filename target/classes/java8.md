@@ -12,15 +12,15 @@
 >
 > 最大化减少空指针异常
 
-
-
-## lambda表达式
-
- 
+## lambda表达式 
 
 ### 概念
 
 + lambda是一个匿名的函数，可以理解为一段可以传递的代码。
++ 引入了箭头操作符( -> )：左侧，lambda的参数列表 右侧，lambda中所需要执行的功能。
++ 实际上是一语法糖只是写起来更加简单。
++ 参数类型可以不写，因为JVM可以根据上下文推断，即类型推断，也是语法糖。
++ 需要函数式接口的支持（只有一个抽象方法的接口）
 
 ```java
 package net.tf.java8.lambda;
@@ -177,4 +177,142 @@ public void test4() {
             .forEach(System.out::println);
 }
 ```
+
+
+
+### 基本使用
+
+```java
+/**
+     * 语法格式一
+     * 无参数，无返回值
+     */
+    @Test
+    public void test1() {
+        //JDK1.7以前必须为final修饰
+//        final int num = 0;
+        //JDK1.8默认加上了final修饰
+        int num = 0;
+        Runnable r = () -> System.out.println("xxx" + num);
+        r.run();
+    }
+
+    /**
+     * 语法格式二
+     * 一个参数，无返回值
+     */
+    @Test
+    public void test2() {
+        Consumer<String> consumer = (x) -> System.out.println(x);
+
+//        Consumer<String> consumer = System.out::println;
+        consumer.accept("xxx");
+    }
+
+    /**
+     * 语法格式三
+     * 一个参数（小括号可以省略不写，一般建议写上），无返回值
+     */
+    @Test
+    public void test3() {
+        Consumer<String> consumer = x -> System.out.println(x);
+    }
+
+    /**
+     * 语法格式四
+     * 多个参数，有返回值,lambda中有多个语句
+     */
+    @Test
+    public void test4() {
+        Comparator<Integer> comparator = (x, y) -> {
+            return Integer.compare(x, y);
+        };
+//        Comparator<Integer> comparator = Integer::compare;
+        int compare = comparator.compare(6, 6);
+        System.out.println(compare);
+
+    }
+
+    /**
+     * 语法格式五
+     * 多个参数，有返回值,lambda中有一个语句 return和大括号可以省略不写
+     */
+    @Test
+    public void test5() {
+       Comparator<Integer> comparator = (x, y) -> Integer.compare(x,y);
+    }
+
+    /**
+     * 语法格式六
+     * 参数类型可以不写，因为JVM可以根据上下文推断，即类型推断
+     */
+    @Test
+    public void test6() {
+        Comparator<Integer> comparator = (x, y) -> Integer.compare(x,y);
+    }
+```
+
+```java
+@FunctionalInterface
+public interface MyFun<T> {
+
+    T getValue(T value);
+}
+```
+
+```java
+@Test
+public void test7() {
+    Integer operation = operationInteger(200, (x) -> x * x);
+    System.out.println(operation);
+}
+
+public Integer operationInteger(Integer num, MyFun<Integer> myFun) {
+    return myFun.getValue(num);
+}
+
+@Test
+public void test8() {
+   String value = operationString("xxx", String::toString);
+    System.out.println(value);
+}
+
+public String operationString(String string,MyFun<String> myFun) {
+    return myFun.getValue(string);
+}
+```
+
+### 使用lambda实现排序
+
+``` java
+List<Employee> employees = Arrays.asList(
+        new Employee("xx", 59, 666.33),
+        new Employee("ss", 36, 62.33),
+        new Employee("zz", 18, 6699.33),
+        new Employee("gg", 65, 6689.33)
+);
+@Test
+public void test1() {
+    Collections.sort(employees,(e1,e2) -> {
+        if (e1.getAge() == e2.getAge()) {
+            return e1.getName().compareTo(e2.getName());
+        } else {
+            return Integer.compare(e1.getAge(),e2.getAge());
+        }
+    });
+    employees.forEach(System.out::println);
+}
+```
+
+### 其他
+
+> @FunctionalInterface 函数式接口，只有一个抽象方法的接口
+
+
+
+### Java8四大内置核心函数式接口
+
+
+
+
 
