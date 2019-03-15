@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="126d1dba-b657-4048-9dc6-a923c578926c" name="Default Changelist" comment="" />
+    <list default="true" id="126d1dba-b657-4048-9dc6-a923c578926c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/MyFun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/TestLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/MyPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/MyPredicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/java8.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/java8.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/java8.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/java8/lambda/MyPredicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/java8/lambda/MyPredicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/java8/lambda/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/java8/lambda/Test.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,27 +32,27 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="java" value="1274" />
+          <entry key="java" value="2116" />
           <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1274" />
+          <entry key="JAVA" value="2116" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="13" />
           <entry key="md" value="1" />
           <entry key="pom" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="13" />
           <entry key="Markdown" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -51,46 +62,57 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/TestJava8.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="480">
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#3216#3217#0" expanded="true" />
+                <element signature="e#3260#3261#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/TestLambda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="120" column="1" lean-forward="true" selection-start-line="120" selection-start-column="1" selection-end-line="120" selection-end-column="1" />
+            <state relative-caret-position="450">
+              <caret line="93" column="25" lean-forward="true" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#450#451#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
+                <element signature="e#1314#1315#0" expanded="true" />
+                <element signature="e#1392#1393#0" expanded="true" />
+                <element signature="e#1509#1510#0" expanded="true" />
+                <element signature="e#1587#1588#0" expanded="true" />
+                <element signature="e#1770#1771#0" expanded="true" />
+                <element signature="e#1808#1809#0" expanded="true" />
+                <element signature="e#1981#1982#0" expanded="true" />
+                <element signature="e#2023#2024#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Collection.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/MyFun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="582" lean-forward="true" selection-start-line="582" selection-end-line="582" />
-              <folding>
-                <element signature="e#26957#26958#0" expanded="true" />
-                <element signature="e#27022#27023#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/function/Consumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-65">
+              <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -98,8 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/MyPredicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="390">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -107,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/MyPredicateBySalary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+            <state relative-caret-position="390">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding>
                 <element signature="e#228#229#0" expanded="true" />
                 <element signature="e#256#257#0" expanded="true" />
@@ -120,8 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/MyPredicateByAge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="450">
+              <caret line="15" lean-forward="true" selection-end-line="15" />
               <folding>
                 <element signature="e#204#205#0" expanded="true" />
                 <element signature="e#232#233#0" expanded="true" />
@@ -133,8 +155,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="600">
+              <caret line="20" lean-forward="true" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -142,8 +164,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Comparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="112" column="22" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
+            <state relative-caret-position="-676">
+              <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -151,8 +173,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Integer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="1240" column="49" selection-start-line="1240" selection-start-column="49" selection-end-line="1240" selection-end-column="49" />
+            <state relative-caret-position="319">
+              <caret line="1236" column="7" lean-forward="true" selection-start-line="1236" selection-start-column="7" selection-end-line="1236" selection-end-column="7" />
               <folding>
                 <element signature="e#47036#47037#0" expanded="true" />
                 <element signature="e#47092#47093#0" expanded="true" />
@@ -166,10 +188,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -181,6 +206,8 @@
         <option value="$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/MyPredicateBySalary.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/MyPredicate.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/MyFun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/TestLambda.java" />
       </list>
     </option>
   </component>
@@ -202,6 +229,9 @@
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -301,7 +331,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552467515608" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552626481164" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -325,8 +355,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test.test4">
-    <configuration name="Test.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestLambda.test8">
+    <configuration name="TestLambda.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java8" />
       <extension name="coverage">
         <pattern>
@@ -335,14 +365,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="net.tf.java8.lambda" />
-      <option name="MAIN_CLASS_NAME" value="net.tf.java8.lambda.Test" />
+      <option name="MAIN_CLASS_NAME" value="net.tf.java8.lambda.TestLambda" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLambda.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.tf.java8.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.tf.java8.lambda" />
+      <option name="MAIN_CLASS_NAME" value="net.tf.java8.lambda.TestLambda" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLambda.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java8" />
       <extension name="coverage">
         <pattern>
@@ -351,39 +397,59 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="net.tf.java8.lambda" />
-      <option name="MAIN_CLASS_NAME" value="net.tf.java8.lambda.Test" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.tf.java8.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="net.tf.java8.lambda" />
-      <option name="MAIN_CLASS_NAME" value="net.tf.java8.lambda.Test" />
+      <option name="MAIN_CLASS_NAME" value="net.tf.java8.lambda.TestLambda" />
       <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLambda.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.tf.java8.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.tf.java8.lambda" />
+      <option name="MAIN_CLASS_NAME" value="net.tf.java8.lambda.TestLambda" />
+      <option name="METHOD_NAME" value="test7" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLambda.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.tf.java8.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.tf.java8.lambda" />
+      <option name="MAIN_CLASS_NAME" value="net.tf.java8.lambda.TestLambda" />
+      <option name="METHOD_NAME" value="test8" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.Test.test2" />
-      <item itemvalue="JUnit.Test.test3" />
-      <item itemvalue="JUnit.Test.test4" />
+      <item itemvalue="JUnit.TestLambda.test1" />
+      <item itemvalue="JUnit.TestLambda.test2" />
+      <item itemvalue="JUnit.TestLambda.test4" />
+      <item itemvalue="JUnit.TestLambda.test7" />
+      <item itemvalue="JUnit.TestLambda.test8" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test.test4" />
-        <item itemvalue="JUnit.Test.test3" />
-        <item itemvalue="JUnit.Test.test2" />
+        <item itemvalue="JUnit.TestLambda.test8" />
+        <item itemvalue="JUnit.TestLambda.test7" />
+        <item itemvalue="JUnit.TestLambda.test4" />
+        <item itemvalue="JUnit.TestLambda.test2" />
+        <item itemvalue="JUnit.TestLambda.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -397,38 +463,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552460809559</updated>
-      <workItem from="1552460813724" duration="5363000" />
+      <workItem from="1552460813724" duration="10585000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_test2 - 2019.03.13 at 16h 06m 58s.xml">
-      <configuration name="Test.test2" configurationId="JUnit" />
+    <history-entry file="TestLambda_test1 - 2019.03.15 at 12h 29m 15s.xml">
+      <configuration name="TestLambda.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test2 - 2019.03.13 at 16h 22m 55s.xml">
-      <configuration name="Test.test2" configurationId="JUnit" />
+    <history-entry file="TestLambda_test1 - 2019.03.15 at 12h 29m 24s.xml">
+      <configuration name="TestLambda.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test2 - 2019.03.13 at 16h 28m 14s.xml">
-      <configuration name="Test.test2" configurationId="JUnit" />
+    <history-entry file="TestLambda_test2 - 2019.03.15 at 12h 35m 29s.xml">
+      <configuration name="TestLambda.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test3 - 2019.03.13 at 16h 43m 37s.xml">
-      <configuration name="Test.test3" configurationId="JUnit" />
+    <history-entry file="TestLambda_test2 - 2019.03.15 at 12h 36m 32s.xml">
+      <configuration name="TestLambda.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test3 - 2019.03.13 at 16h 47m 58s.xml">
-      <configuration name="Test.test3" configurationId="JUnit" />
+    <history-entry file="TestLambda_test4 - 2019.03.15 at 12h 51m 30s.xml">
+      <configuration name="TestLambda.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test4 - 2019.03.13 at 16h 52m 21s.xml">
-      <configuration name="Test.test4" configurationId="JUnit" />
+    <history-entry file="TestLambda_test4 - 2019.03.15 at 12h 51m 58s.xml">
+      <configuration name="TestLambda.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test4 - 2019.03.13 at 16h 52m 36s.xml">
-      <configuration name="Test.test4" configurationId="JUnit" />
+    <history-entry file="TestLambda_test4 - 2019.03.15 at 12h 51m 59s.xml">
+      <configuration name="TestLambda.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test4 - 2019.03.13 at 16h 55m 39s.xml">
-      <configuration name="Test.test4" configurationId="JUnit" />
+    <history-entry file="TestLambda_test7 - 2019.03.15 at 13h 04m 18s.xml">
+      <configuration name="TestLambda.test7" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLambda_test8 - 2019.03.15 at 13h 06m 39s.xml">
+      <configuration name="TestLambda.test8" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLambda_test8 - 2019.03.15 at 13h 06m 53s.xml">
+      <configuration name="TestLambda.test8" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5363000" />
+    <option name="totallyTimeSpent" value="10585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -439,17 +511,17 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.07828005" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.10694598" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14663726" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -503,60 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="1240" column="49" selection-start-line="1240" selection-start-column="49" selection-end-line="1240" selection-end-column="49" />
-          <folding>
-            <element signature="e#47036#47037#0" expanded="true" />
-            <element signature="e#47092#47093#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="112" column="22" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/MyPredicateBySalary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-          <folding>
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/MyPredicateByAge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/MyPredicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -568,14 +586,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/MyPredicateByAge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" lean-forward="true" selection-end-line="15" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" lean-forward="true" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/MyPredicateBySalary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="120" column="1" lean-forward="true" selection-start-line="120" selection-start-column="1" selection-end-line="120" selection-end-column="1" />
+        <state relative-caret-position="480">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#450#451#0" expanded="true" />
             <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#3216#3217#0" expanded="true" />
+            <element signature="e#3260#3261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/MyPredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-676">
+          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="1236" column="7" lean-forward="true" selection-start-line="1236" selection-start-column="7" selection-end-line="1236" selection-end-column="7" />
+          <folding>
+            <element signature="e#47036#47037#0" expanded="true" />
+            <element signature="e#47092#47093#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/MyFun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/TestLambda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="93" column="25" lean-forward="true" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+            <element signature="e#1509#1510#0" expanded="true" />
+            <element signature="e#1587#1588#0" expanded="true" />
+            <element signature="e#1770#1771#0" expanded="true" />
+            <element signature="e#1808#1809#0" expanded="true" />
+            <element signature="e#1981#1982#0" expanded="true" />
+            <element signature="e#2023#2024#0" expanded="true" />
           </folding>
         </state>
       </provider>

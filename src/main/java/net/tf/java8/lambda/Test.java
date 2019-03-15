@@ -100,6 +100,26 @@ public class Test {
     }
 
     @org.junit.Test
+    public void test6() {
+        List<Employee> list = Arrays.asList(
+                new Employee("xx", 59, 666.33),
+                new Employee("ss", 36, 62.33),
+                new Employee("zz", 18, 6699.33),
+                new Employee("gg", 65, 6689.33)
+        );
+
+        //按照薪水分类
+        List<Employee> employees = filterEmployeeA(list, new MyPredicate<Employee>() {
+            @Override
+            public boolean test(Employee employee) {
+                return employee.getSalary() >= 800.00;
+            }
+        });
+        employees.forEach(System.out::println);
+    }
+
+
+    @org.junit.Test
     public void test4() {
         List<Employee> list = Arrays.asList(
                 new Employee("xx", 59, 666.33),
