@@ -430,5 +430,148 @@ public List<Employee> empHandler(List<Employee> employees,Predicate<Employee> pr
 }
 ```
 
+## 方法引用于构造器引用
+
+### 方法引用概念
+
++ 若lambda重的内容已经实现了，我们可以使用"方法引用"
+
++ 方法引用是lambda另外一种表现形式
+
++ lambda体中方法的参数列表和返回值要和函数式接口中的方法的参数列表和返回值相同
+
++ 主要有三种语法格式
+
+  + 对象::实例方法名
+
+    ```java
+    @Test
+    public void test1() {
+    
+        Consumer<String> consumer1 = (x) -> System.out.println(x);
+    
+        //对象::实例方法名
+        PrintStream ps = System.out;
+        Consumer<String> consumer2 = ps::println;
+    
+        //使用时，当前方法参数列表和返回值需要一致
+        Consumer<String> consumer3 = System.out::println;
+    
+    }
+    ```
+
+  + 类::静态方法名
+
+    ```java
+    @Test
+    public void test3() {
+        //类::静态方法名
+        Comparator<Integer> comparator = Integer::compareTo;
+    
+    }
+    ```
+
+  + 类::实例方法名
+
+    ``` java
+    @Test
+    public void test4() {
+        //类::实例方法名   前提：第一个参数x,在方法中是调用者，第二个参数y是方法中的参数
+        BiPredicate<String,String> biPredicate1 = (x, y) -> x.equals(y);
+    
+        BiPredicate<String,String> biPredicate2 = String::equals;
+    }
+    ```
+
+    ### 构造器引用
+
+    + 构造引用
+
+      ```java
+      @Test
+      public void test5() {
+          //构造引用
+          Supplier<Employee> supplier1 = () -> new Employee();
+          //使用的无参数构造器
+          Supplier<Employee> supplier2 = Employee::new;
+      
+          Function<Integer,Employee> function2 = (x) -> new Employee(x);
+          Function<Integer,Employee> function1 = Employee::new;
+      
+          Employee apply = function1.apply(34);
+          System.out.println(apply.getAge());
+      
+          BiFunction<String, Integer, Employee> biFunction1 = (x, y) -> new Employee(x, y);
+          BiFunction<String, Integer, Employee> biFunction2 = Employee::new;
+          Employee xxx = biFunction2.apply("xxx", 45);
+          System.out.println(xxx);
+      }
+      ```
+
+    + 数组引用
+
+      ```java
+      @Test
+      public void test6() {
+          //数组引用
+          Function<Integer,String[]> function1 = (x) -> new String[x];
+          Function<Integer,String[]> function2 = String[]::new;
+          String[] apply = function2.apply(20);
+          System.out.println(apply.length);
+      }
+      ```
+
+      ## Stream API
+
+      ### Stream 概念
+
+      + 流(Stream) 是数据渠道，用于操作数据源（集合，数组等）生成的元素序列
+
+      + 集合讲的是数据，流讲的是运算
+
+      + Stream本身不会存储任何元素
+
+      + Stream不会改变原有数据源
+
+      + Stream的操作是延迟执行的，这意味着他们会等到需要结果的时候才执行
+
+      + 步骤：创建 -> 处理 -> 结果 
+
+        ### 创建
+
+        ```java
+        /**
+         * 创建Stream
+         */
+        @Test
+        public void test1() {
+            //可以通过Collection 系列集合提供的stream() (串行流) parallelStream() (并行流)
+            List<String> list = new ArrayList<>();
+            Stream<String> stream = list.stream();
+        
+            //通过Arrays的stream() 方法获取流
+            Employee[] employees = new Employee[10];
+            Stream<Employee> stream1 = Arrays.stream(employees);
+        
+            //通过Stream 类的of()方法获取
+            Stream<String> stream2 = Stream.of("xx", "bb");
+        
+            //创建无限流
+            //迭代
+            Stream<Integer> stream3 = Stream.iterate(2, (x) -> x + 2);
+            stream3
+                    //限制为20个
+                    .limit(20)
+                    .forEach(System.out::println);
+        
+            //生成
+            Stream<Double> stream4 = Stream.generate(Math::random);
+            stream4
+                    .limit(10)
+                    .forEach(System.out::println);
+        }
+        ```
+
+        ### 中间操作
 
 

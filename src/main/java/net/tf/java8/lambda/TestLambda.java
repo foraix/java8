@@ -33,7 +33,6 @@ public class TestLambda {
     @Test
     public void test2() {
         Consumer<String> consumer = (x) -> System.out.println(x);
-
 //        Consumer<String> consumer = System.out::println;
         consumer.accept("xxx");
     }

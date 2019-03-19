@@ -19,13 +19,21 @@ public class TestLambda1 {
             new Employee("zz", 18, 6699.33),
             new Employee("gg", 65, 6689.33)
     );
+
+    @Test
+    public void test9() {
+        employees.stream()
+                .limit(2)
+                .forEach(System.out::println);
+    }
+
     @Test
     public void test1() {
-        Collections.sort(employees,(e1,e2) -> {
+        employees.sort((e1, e2) -> {
             if (e1.getAge() == e2.getAge()) {
                 return e1.getName().compareTo(e2.getName());
             } else {
-                return Integer.compare(e1.getAge(),e2.getAge());
+                return Integer.compare(e1.getAge(), e2.getAge());
             }
         });
         employees.forEach(System.out::println);
