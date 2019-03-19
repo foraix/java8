@@ -572,6 +572,33 @@ public List<Employee> empHandler(List<Employee> employees,Predicate<Employee> pr
         }
         ```
 
-        ### 中间操作
+        ### 终止操作
+
+        > ```java
+        > /anyMatch 至少一个匹配
+        > //noneMatch 没有匹配
+        > //findFirst 查找所有元素
+        > //findAny 返回当前符合要求的任意一个元素
+        > //count 返回元素总个数
+        > //max 最大值
+        > //min 最小值
+        >  //allMatch 检查是否匹配所有元素,查看是不是所有的员工都处于忙碌状态
+        > 
+        >         boolean b = employees.stream()
+        >                 .allMatch((e) -> e.getStatus().equals(Status.BUSY));
+        >         System.out.println("是不是所有的员工都处于忙碌状态" + b);
+        > 
+        > //拿到工资的最小值
+        >         Optional<Double> max = employees.stream()
+        >                 .map(Employee::getSalary)
+        >                 .min(Double::compare);
+        >         System.out.println("工资最少的是" + max);
+        > ```
+
+
+
+
+
+### 归约
 
 

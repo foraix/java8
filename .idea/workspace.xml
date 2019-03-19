@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="126d1dba-b657-4048-9dc6-a923c578926c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/tf/java8/stream/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/tf/java8/stream/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/tf/java8/stream/StreamAPI1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/tf/java8/stream/TestStreamAPI2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/TestLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/TestLambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/TestLambda1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/TestLambda1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/tf/java8/stream/TestStreamAPI1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/tf/java8/stream/TestStreamAPI1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/java8/lambda/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/java8/lambda/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/java8/lambda/TestLambda.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/java8/lambda/TestLambda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/java8/lambda/TestLambda1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/java8/lambda/TestLambda1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/java8/stream/TestStreamAPI1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/java8/stream/TestStreamAPI1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/java8.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/java8.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,27 +29,27 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="java" value="6599" />
+          <entry key="java" value="7791" />
           <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6599" />
+          <entry key="JAVA" value="7791" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="53" />
+          <entry key="java" value="57" />
           <entry key="md" value="2" />
           <entry key="pom" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="53" />
+          <entry key="JAVA" value="57" />
           <entry key="Markdown" value="2" />
           <entry key="XML" value="1" />
         </counts>
@@ -69,27 +59,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/TestLambda2.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/stream/TestStreamAPI1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="111" column="35" lean-forward="true" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
+            <state relative-caret-position="3180">
+              <caret line="185" lean-forward="true" selection-start-line="185" selection-end-line="185" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/stream/StreamAPI1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/stream/StreamAPI1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/stream/TestStreamAPI2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+            <state relative-caret-position="415">
+              <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-271">
+              <caret line="324" column="11" selection-start-line="324" selection-start-column="11" selection-end-line="324" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -104,24 +113,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/Employee.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/function/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="12" selection-start-line="12" selection-end-line="16" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/MyPredicateByAge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="-240">
+              <caret line="39" column="3" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -162,20 +157,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/stream/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/TestLambda3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="523">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -213,6 +196,7 @@
         <option value="$PROJECT_DIR$/src/main/java/net/tf/java8/stream/Status.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/tf/java8/stream/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/tf/java8/stream/StreamAPI1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tf/java8/stream/TestStreamAPI2.java" />
       </list>
     </option>
   </component>
@@ -345,10 +329,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="plug&#9;ACTION&#9;WelcomeScreen.Plugins" />
+    <property name="SearchEverywhereHistoryKey" value="Consumer&#9;PSI&#9;JAVA://java.util.function.Consumer&#10;plug&#9;ACTION&#9;WelcomeScreen.Plugins" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552996091209" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553001046934" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -373,20 +357,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StreamAPI1.test1">
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.tf.java8.lambda.Test1" />
-      <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.tf.java8.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestStreamAPI2.test3">
     <configuration name="StreamAPI1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java8" />
       <extension name="coverage">
@@ -419,23 +390,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLambda1.test9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.tf.java8.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="net.tf.java8.lambda" />
-      <option name="MAIN_CLASS_NAME" value="net.tf.java8.lambda.TestLambda1" />
-      <option name="METHOD_NAME" value="test9" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestStreamAPI1.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStreamAPI2.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java8" />
       <extension name="coverage">
         <pattern>
@@ -444,27 +399,59 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="net.tf.java8.stream" />
-      <option name="MAIN_CLASS_NAME" value="net.tf.java8.stream.TestStreamAPI1" />
-      <option name="METHOD_NAME" value="test7" />
+      <option name="MAIN_CLASS_NAME" value="net.tf.java8.stream.TestStreamAPI2" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStreamAPI2.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.tf.java8.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.tf.java8.stream" />
+      <option name="MAIN_CLASS_NAME" value="net.tf.java8.stream.TestStreamAPI2" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStreamAPI2.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.tf.java8.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.tf.java8.stream" />
+      <option name="MAIN_CLASS_NAME" value="net.tf.java8.stream.TestStreamAPI2" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestStreamAPI1.test7" />
-      <item itemvalue="JUnit.TestLambda1.test9" />
-      <item itemvalue="Application.Test1" />
       <item itemvalue="JUnit.TestLambda1.test1" />
       <item itemvalue="JUnit.StreamAPI1.test1" />
+      <item itemvalue="JUnit.TestStreamAPI2.test1" />
+      <item itemvalue="JUnit.TestStreamAPI2.test2" />
+      <item itemvalue="JUnit.TestStreamAPI2.test3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestStreamAPI2.test3" />
+        <item itemvalue="JUnit.TestStreamAPI2.test2" />
+        <item itemvalue="JUnit.TestStreamAPI2.test1" />
         <item itemvalue="JUnit.StreamAPI1.test1" />
         <item itemvalue="JUnit.TestLambda1.test1" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="JUnit.TestLambda1.test9" />
-        <item itemvalue="JUnit.TestStreamAPI1.test7" />
       </list>
     </recent_temporary>
   </component>
@@ -481,44 +468,44 @@
       <workItem from="1552460813724" duration="18440000" />
       <workItem from="1552638365151" duration="4942000" />
       <workItem from="1552703225799" duration="7731000" />
-      <workItem from="1552785852404" duration="10991000" />
+      <workItem from="1552785852404" duration="16091000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestStreamAPI1_test7 - 2019.03.16 at 12h 16m 12s.xml">
-      <configuration name="TestStreamAPI1.test7" configurationId="JUnit" />
+    <history-entry file="TestStreamAPI2_test3 - 2019.03.19 at 20h 41m 33s.xml">
+      <configuration name="TestStreamAPI2.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStreamAPI1_test7 - 2019.03.16 at 12h 23m 56s.xml">
-      <configuration name="TestStreamAPI1.test7" configurationId="JUnit" />
+    <history-entry file="TestStreamAPI2_test3 - 2019.03.19 at 20h 44m 48s.xml">
+      <configuration name="TestStreamAPI2.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStreamAPI1_test7 - 2019.03.16 at 12h 26m 04s.xml">
-      <configuration name="TestStreamAPI1.test7" configurationId="JUnit" />
+    <history-entry file="TestStreamAPI2_test3 - 2019.03.19 at 20h 54m 28s.xml">
+      <configuration name="TestStreamAPI2.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestLambda1_test9 - 2019.03.17 at 09h 38m 17s.xml">
-      <configuration name="TestLambda1.test9" configurationId="JUnit" />
+    <history-entry file="TestStreamAPI2_test3 - 2019.03.19 at 20h 54m 53s.xml">
+      <configuration name="TestStreamAPI2.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestLambda1_test9 - 2019.03.17 at 09h 40m 02s.xml">
-      <configuration name="TestLambda1.test9" configurationId="JUnit" />
+    <history-entry file="TestStreamAPI2_test3 - 2019.03.19 at 20h 55m 30s.xml">
+      <configuration name="TestStreamAPI2.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestLambda1_test1 - 2019.03.18 at 15h 30m 05s.xml">
-      <configuration name="TestLambda1.test1" configurationId="JUnit" />
+    <history-entry file="TestStreamAPI2_test3 - 2019.03.19 at 21h 01m 55s.xml">
+      <configuration name="TestStreamAPI2.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamAPI1_test1 - 2019.03.19 at 19h 23m 18s.xml">
-      <configuration name="StreamAPI1.test1" configurationId="JUnit" />
+    <history-entry file="TestStreamAPI2_test3 - 2019.03.19 at 21h 04m 31s.xml">
+      <configuration name="TestStreamAPI2.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamAPI1_test1 - 2019.03.19 at 19h 23m 34s.xml">
-      <configuration name="StreamAPI1.test1" configurationId="JUnit" />
+    <history-entry file="TestStreamAPI2_test2 - 2019.03.19 at 21h 06m 37s.xml">
+      <configuration name="TestStreamAPI2.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamAPI1_test1 - 2019.03.19 at 19h 31m 59s.xml">
-      <configuration name="StreamAPI1.test1" configurationId="JUnit" />
+    <history-entry file="TestStreamAPI2_test3 - 2019.03.19 at 21h 06m 46s.xml">
+      <configuration name="TestStreamAPI2.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamAPI1_test1 - 2019.03.19 at 19h 41m 10s.xml">
-      <configuration name="StreamAPI1.test1" configurationId="JUnit" />
+    <history-entry file="TestStreamAPI2_test3 - 2019.03.19 at 21h 07m 10s.xml">
+      <configuration name="TestStreamAPI2.test3" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42104000" />
+    <option name="totallyTimeSpent" value="47204000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -542,14 +529,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.08489526" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.038588755" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3296582" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.26019844" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.39911798" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3296582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -672,23 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/stream/TestStreamAPI1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="185" lean-forward="true" selection-start-line="185" selection-end-line="185" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -781,13 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/stream/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/lambda/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -841,10 +804,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/stream/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/stream/StreamAPI1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+        <state relative-caret-position="480">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/stream/TestStreamAPI1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3180">
+          <caret line="185" lean-forward="true" selection-start-line="185" selection-end-line="185" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="39" column="3" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-271">
+          <caret line="324" column="11" selection-start-line="324" selection-start-column="11" selection-end-line="324" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/java8/stream/TestStreamAPI2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
