@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * @author hy
@@ -21,6 +22,12 @@ public class TestStreamAPI2 {
     );
 
     @Test
+    public void test11() {
+
+    }
+
+
+    @Test
     public void test1() {
 
         //通过reduce计算该list的和
@@ -31,6 +38,7 @@ public class TestStreamAPI2 {
         System.out.println(reduce);
 
     }
+
 
     @Test
     public void test2() {
@@ -72,6 +80,16 @@ public class TestStreamAPI2 {
         Optional<Employee> collect2 = employees.stream().max(Comparator.comparingDouble(Employee::getSalary));
         System.out.println(collect2.get());
 
+        //练习
+        employees.stream()
+                .max(Comparator.comparingDouble(Employee::getSalary));
+        Optional<Employee> max1 = employees.stream()
+                .max(Comparator.comparingDouble(Employee::getSalary));
+        employees.stream().max(Comparator.comparingDouble(Employee::getSalary));
+        employees.stream()
+                .max(Comparator.comparingInt(Employee::getAge));
+
+
         System.out.println("---------------------------------------------------------------");
 
         //获取年龄最大的员工信息
@@ -89,12 +107,20 @@ public class TestStreamAPI2 {
         //按照状态分组统计员工信息
         Map<Status, List<Employee>> statusListMap = employees.stream()
                 .collect(Collectors.groupingBy(Employee::getStatus));
-
         for (Status s : statusListMap.keySet()
         ) {
             System.out.println("==============================================");
             List<Employee> employeeList = statusListMap.get(s);
             employeeList.forEach(System.out::println);
+        }
+
+        //练习
+        Map<Status, List<Employee>> collect4 = employees.stream()
+                .collect(Collectors.groupingBy(Employee::getStatus));
+        for (Status s : collect4.keySet()
+             ) {
+            List<Employee> employees = collect4.get(s);
+            employees.forEach(System.out::println);
         }
 
         System.out.println("---------------------------------------------------------------");
@@ -114,5 +140,31 @@ public class TestStreamAPI2 {
 
     }
 
+    /**
+     * 分区，分片
+     */
+    @Test
+    public void test9() {
+        Map<Boolean, List<Employee>> collect = employees.stream()
+                .collect(Collectors.partitioningBy((e) -> e.getSalary() >= 1000.00));
+        System.out.println(collect);
+    }
 
+    @Test
+    public void test10() {
+        DoubleSummaryStatistics collect = employees.stream()
+                .collect(Collectors.summarizingDouble(Employee::getSalary));
+        System.out.println(collect.getMax());
+        System.out.println(collect.getAverage());
+        System.out.println(collect.getMin());
+    }
+
+    @Test
+    public void test12() {
+        //链接
+        String s = employees.stream()
+                .map(Employee::getName)
+                .collect(Collectors.joining(",","=","="));
+        System.out.println(s);
+    }
 }

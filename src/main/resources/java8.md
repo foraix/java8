@@ -707,3 +707,113 @@ System.out.println(collect3);
 ### 收集
 
 概念：将流转化为其他形式，接收一个Collector接口的实现，用于给Stream中元素做汇总的方法
+
+
+
+```java
+//将薪水收集到一个list中去
+List<Double> collect = employees.stream()
+        .map(Employee::getSalary)
+        .collect(Collectors.toList());
+System.out.println(collect);
+collect.forEach(System.out::println);
+
+System.out.println("---------------------------------------------------------------");
+
+//收集到指定的集合中
+HashSet<Integer> collect1 = employees.stream()
+        .map(Employee::getAge)
+        .collect(Collectors.toCollection(HashSet::new));
+collect1.forEach(System.out::println);
+
+System.out.println("---------------------------------------------------------------");
+
+//按照工资获取均值
+Double aDouble = employees.stream()
+        .collect(Collectors.averagingDouble(Employee::getSalary));
+System.out.println(aDouble);
+
+System.out.println("---------------------------------------------------------------");
+
+//获取最高薪资的员工信息
+Optional<Employee> collect2 = employees.stream().max(Comparator.comparingDouble(Employee::getSalary));
+System.out.println(collect2.get());
+
+//练习
+employees.stream()
+        .max(Comparator.comparingDouble(Employee::getSalary));
+Optional<Employee> max1 = employees.stream()
+        .max(Comparator.comparingDouble(Employee::getSalary));
+employees.stream().max(Comparator.comparingDouble(Employee::getSalary));
+employees.stream()
+        .max(Comparator.comparingInt(Employee::getAge));
+
+
+System.out.println("---------------------------------------------------------------");
+
+//获取年龄最大的员工信息
+Optional<Employee> max = employees.stream().max(Comparator.comparingInt(Employee::getAge));
+System.out.println(max.get());
+
+System.out.println("---------------------------------------------------------------");
+
+//获取最小工资
+Optional<Integer> min = employees.stream()
+        .map(Employee::getAge)
+        .min(Integer::compareTo);
+System.out.println(min.get());
+
+//按照状态分组统计员工信息
+Map<Status, List<Employee>> statusListMap = employees.stream()
+        .collect(Collectors.groupingBy(Employee::getStatus));
+for (Status s : statusListMap.keySet()
+) {
+    System.out.println("==============================================");
+    List<Employee> employeeList = statusListMap.get(s);
+    employeeList.forEach(System.out::println);
+}
+
+//练习
+Map<Status, List<Employee>> collect4 = employees.stream()
+        .collect(Collectors.groupingBy(Employee::getStatus));
+for (Status s : collect4.keySet()
+     ) {
+    List<Employee> employees = collect4.get(s);
+    employees.forEach(System.out::println);
+}
+
+System.out.println("---------------------------------------------------------------");
+
+//多级分组
+Map<Double, Map<Object, List<Employee>>> collect3 = employees.stream()
+        .collect(Collectors.groupingBy(Employee::getSalary, Collectors.groupingBy((employees) -> {
+            if (employees.getAge() >= 18 && employees.getAge() < 65) {
+                return "中";
+            } else if (employees.getAge() <= 18) {
+                return "小";
+            } else {
+                return "老";
+            }
+        })));
+System.out.println(collect3);
+
+
+@Test
+    public void test1() {
+        //每个数求平方
+        Integer[] integers = new Integer[]{1, 2, 3, 4, 5};
+        Arrays.stream(integers)
+                .map(x -> x * x)
+                .forEach(System.out::println);
+    }
+
+    @Test
+    public void test2() {
+        //计算个数
+        Optional<Integer> reduce = employees.stream()
+                .map(e -> 1)
+                .reduce(Integer::sum);
+        System.out.println(reduce.get());
+    }
+```
+
