@@ -796,5 +796,24 @@ Map<Double, Map<Object, List<Employee>>> collect3 = employees.stream()
             }
         })));
 System.out.println(collect3);
+
+
+@Test
+    public void test1() {
+        //每个数求平方
+        Integer[] integers = new Integer[]{1, 2, 3, 4, 5};
+        Arrays.stream(integers)
+                .map(x -> x * x)
+                .forEach(System.out::println);
+    }
+
+    @Test
+    public void test2() {
+        //计算个数
+        Optional<Integer> reduce = employees.stream()
+                .map(e -> 1)
+                .reduce(Integer::sum);
+        System.out.println(reduce.get());
+    }
 ```
 
